@@ -11,7 +11,7 @@ Data Format
 
 Input files must be in FASTA format::
 
-    >Sample
+	>Sample
 	ATCGATCGATCG
 
 Simple Example:
@@ -36,13 +36,13 @@ QuickStart
 ==========
 ::
 
-    $ python -m NuPoP \
-        --fa example/SAMPLE.fasta\
+	$ python -m NuPoP \
+		--fa example/SAMPLE.fasta\
 		--plot example/SAMPLE.png
 
 The output will be shown in the following files::
 
-    example/SAMPLE.fasta_Prediction4.txt
+	example/SAMPLE.fasta_Prediction4.txt
 	example/SAMPLE.png
 	
 Importation
